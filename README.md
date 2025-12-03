@@ -8,7 +8,7 @@
 
 [![Code](https://img.shields.io/badge/GitHub-Code-black?logo=github)](https://github.com/Zhangyr2022/MoRe4D)
 [![arXiv](https://img.shields.io/badge/arXiv-Coming%20Soon-b31b1b.svg?logo=arxiv&logoColor=white)](#)
-[![Website](https://img.shields.io/badge/Project-Website-blue?logo=googlechrome&logoColor=white)](https://ivg-yanranzhang.github.io/MoRe4D-web/)
+[![Website](https://img.shields.io/badge/Project-Website-blue?logo=googlechrome&logoColor=white)](https://ivg-yanranzhang.github.io/MoRe4D/)
 [![Dataset](https://img.shields.io/badge/%F0%9F%A4%97%20HuggingFace-Dataset%20(Coming%20Soon)-yellow)](#trajscene-60k-dataset)
 
 <div align="center">
