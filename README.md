@@ -1,6 +1,6 @@
 # Joint 3D Geometry Reconstruction and Motion Generation for 4D Synthesis from a Single Image
 
-[Yanran Zhang](https://github.com/Zhangyr2022/)<sup>\*,1</sup>, [Ziyi Wang](https://wangzy22.github.io/)<sup>\*,1</sup>, [Wenzhao Zheng](https://wzzheng.net/#)<sup>†,1</sup>, [Zheng Zhu](http://www.zhengzhu.net/)<sup>2</sup>, [Jie Zhou](https://scholar.google.com/citations?user=6a79aPwAAAAJ&hl=en)<sup>1</sup>, [Jiwen Lu](https://ivg.au.tsinghua.edu.cn/Jiwen_Lu/)<sup>1</sup>
+[Yanran Zhang](https://github.com/Zhangyr2022/)<sup>\*,1</sup>, [Ziyi Wang](https://wangzy22.github.io/)<sup>\*,1</sup>, [Wenzhao Zheng](https://wzzheng.net/#)<sup>†,1</sup>, [Zheng Zhu](http://www.zhengzhu.net/)<sup>2</sup>, [Jie Zhou](https://scholar.google.com/citations?user=6a79aPwAAAAJ&hl=en)<sup>1</sup>, [Jiwen Lu](https://ivg.au.tsinghua.edu.cn/Jiwen_Lu/)<sup>1</sup>**
 
 <sup>1</sup>Department of Automation, Tsinghua University, China &nbsp;&nbsp;&nbsp; <sup>2</sup>GigaAI
 
@@ -17,7 +17,9 @@
 
 ## 📝 Abstract
 
-**MoRe4D** generates interactive, dynamic 4D scenes from a single static image. Unlike previous paradigms that decouple generation and reconstruction (leading to geometric inconsistencies), we tightly couple geometric modeling and motion generation, achieving consistent 4D motion and geometry. Generating interactive, dynamic 4D scenes from a single static image remains a core challenge. Most existing methods decouple geometry from motion (either generate-then-reconstruct or reconstruct-then-generate), causing spatiotemporal inconsistencies and poor generalization.
+**MoRe4D** generates interactive, dynamic 4D scenes from a single static image. Unlike previous paradigms that decouple generation and reconstruction (leading to geometric inconsistencies), we tightly couple geometric modeling and motion generation, achieving consistent 4D motion and geometry.
+
+Generating interactive, dynamic 4D scenes from a single static image remains a core challenge. Most existing methods decouple geometry from motion (either generate-then-reconstruct or reconstruct-then-generate), causing spatiotemporal inconsistencies and poor generalization.
 
 To overcome these limitations, we extend the reconstruct-then-generate framework to jointly couple **Mo**tion generation with geometric **Re**construction for **4D** Synthesis (**MoRe4D**). We introduce:
 
@@ -41,8 +43,8 @@ To overcome these limitations, we extend the reconstruct-then-generate framework
 </tr>
 <tr>
 <td align="center"><img src="static/demo_videos/bear/Input.png" width="100%"></td>
-<td align="center"><video src="https://ivg-yanranzhang.github.io/MoRe4D/static/demo_videos/bear/4D-STraG_output/bear_render.mp4" width="100%"  muted></video></td>
-<td align="center"><video src="https://ivg-yanranzhang.github.io/MoRe4D/static/demo_videos/bear/4D-ViSM_output/1.mp4" width="100%"  muted></video></td>
+<td align="center"><video src="https://github.com/user-attachments/assets/21c0acd3-4ef9-46a5-85af-a0d0fd51bfb4" width="100%"  muted></video></td>
+<td align="center"><video src="https://github.com/user-attachments/assets/8c4ec888-4284-432b-90d8-d1937af2f7a3" width="100%"  muted></video></td>
 </tr>
 
 
@@ -53,8 +55,8 @@ To overcome these limitations, we extend the reconstruct-then-generate framework
 </tr>
 <tr>
 <td align="center"><img src="static/demo_videos/camel/Input.png" width="100%"></td>
-<td align="center"><video src="https://ivg-yanranzhang.github.io/MoRe4D/static/demo_videos/camel/4D-STraG_output/camel_render.mp4" width="100%"  muted></video></td>
-<td align="center"><video src="https://ivg-yanranzhang.github.io/MoRe4D/static/demo_videos/camel/4D-ViSM_output/1.mp4" width="100%"   muted></video></td>
+<td align="center"><video src="https://github.com/user-attachments/assets/59d1b3db-a933-44d7-a89d-1e990ba5f6c7" width="100%"  muted></video></td>
+<td align="center"><video src="https://github.com/user-attachments/assets/3618d7e5-cfdc-49ba-9520-80c06637e10c" width="100%"   muted></video></td>
 </tr>
 
 </table>
