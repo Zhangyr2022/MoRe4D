@@ -1,10 +1,10 @@
 # Joint 3D Geometry Reconstruction and Motion Generation for 4D Synthesis from a Single Image
 
-[Yanran Zhang](https://github.com/Zhangyr2022/)<sup>\*,1</sup>, [Ziyi Wang](https://wangzy22.github.io/)<sup>\*,1</sup>, [Wenzhao Zheng](https://wzzheng.net/#)<sup>†,1</sup>, [Zheng Zhu](http://www.zhengzhu.net/)<sup>2</sup>, [Jie Zhou](https://scholar.google.com/citations?user=6a79aPwAAAAJ&hl=en)<sup>1</sup>, [Jiwen Lu](https://ivg.au.tsinghua.edu.cn/Jiwen_Lu/)<sup>1</sup>**
+<b>[Yanran Zhang](https://github.com/Zhangyr2022/)<sup>\*,1</sup>, [Ziyi Wang](https://wangzy22.github.io/)<sup>\*,1</sup>, [Wenzhao Zheng](https://wzzheng.net/#)<sup>†,1</sup>, [Zheng Zhu](http://www.zhengzhu.net/)<sup>2</sup>, [Jie Zhou](https://scholar.google.com/citations?user=6a79aPwAAAAJ&hl=en)<sup>1</sup>, [Jiwen Lu](https://ivg.au.tsinghua.edu.cn/Jiwen_Lu/)<sup>1</sup></b>
 
 <sup>1</sup>Department of Automation, Tsinghua University, China &nbsp;&nbsp;&nbsp; <sup>2</sup>GigaAI
 
-<sup>*</sup>Equal Contribution &nbsp;&nbsp; <sup>†</sup>Project Leader
+<i><sup>*</sup>Equal Contribution &nbsp;&nbsp; <sup>†</sup>Project Leader</i>
 
 [![Code](https://img.shields.io/badge/GitHub-Code-black?logo=github)](https://github.com/Zhangyr2022/MoRe4D)
 [![arXiv](https://img.shields.io/badge/arXiv-Coming%20Soon-b31b1b.svg?logo=arxiv&logoColor=white)](#)
