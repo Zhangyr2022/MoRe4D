@@ -43,17 +43,20 @@ To overcome these limitations, we extend the reconstruct-then-generate framework
 </tr>
 <tr>
 <td align="center"><img src="static/demo_videos/bear/Input.png" width="100%"></td>
-<td align="center"><video src="static/demo_videos/bear/4D-STraG_output/bear_render.mp4" width="100%"  muted></video></td>
-<td align="center"><video src="static/demo_videos/bear/4D-ViSM_output/1.mp4" width="100%"  muted></video></td>
+<td align="center"><video src="https://github.com/user-attachments/assets/21c0acd3-4ef9-46a5-85af-a0d0fd51bfb4" width="100%"  muted></video></td>
+<td align="center"><video src="https://github.com/user-attachments/assets/8c4ec888-4284-432b-90d8-d1937af2f7a3" width="100%"  muted></video></td>
 </tr>
+
+
+
 
 <tr>
 <td colspan="3"><i>A camel walks along a path in a sunny zoo enclosure.</i></td>
 </tr>
 <tr>
 <td align="center"><img src="static/demo_videos/camel/Input.png" width="100%"></td>
-<td align="center"><video src="static/demo_videos/camel/4D-STraG_output/camel_render.mp4" width="100%"  muted></video></td>
-<td align="center"><video src="static/demo_videos/camel/4D-ViSM_output/1.mp4" width="100%"   muted></video></td>
+<td align="center"><video src="https://github.com/user-attachments/assets/59d1b3db-a933-44d7-a89d-1e990ba5f6c7" width="100%"  muted></video></td>
+<td align="center"><video src="https://github.com/user-attachments/assets/3618d7e5-cfdc-49ba-9520-80c06637e10c" width="100%"   muted></video></td>
 </tr>
 
 </table>
