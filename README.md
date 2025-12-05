@@ -7,13 +7,15 @@
 <i><sup>*</sup>Equal Contribution &nbsp;&nbsp; <sup>†</sup>Project Leader</i>
 
 [![Code](https://img.shields.io/badge/GitHub-Code-black?logo=github)](https://github.com/Zhangyr2022/MoRe4D)
-[![arXiv](https://img.shields.io/badge/arXiv-Coming%20Soon-b31b1b.svg?logo=arxiv&logoColor=white)](#)
+[![arXiv](https://img.shields.io/badge/arXiv-Paper-b31b1b.svg?logo=arxiv&logoColor=white)](https://arxiv.org/abs/2512.05044)
 [![Website](https://img.shields.io/badge/Project-Website-blue?logo=googlechrome&logoColor=white)](https://ivg-yanranzhang.github.io/MoRe4D/)
 [![Dataset](https://img.shields.io/badge/%F0%9F%A4%97%20HuggingFace-Dataset%20(Coming%20Soon)-yellow)](#trajscene-60k-dataset)
 
 <div align="center">
   <img src="static/images/teaser.png" width="85%" alt="MoRe4D Teaser">
 </div>
+
+
 
 ## 📝 Abstract
 
@@ -26,6 +28,11 @@ To overcome these limitations, we extend the reconstruct-then-generate framework
 - 🗄️ **TrajScene-60K**: A large-scale dataset of 60,000 video samples with dense point trajectories
 - 🎯 **4D Scene Trajectory Generator (4D-STraG)**: A diffusion-based model that jointly generates geometrically consistent and motion-plausible 4D point trajectories
 - 🎬 **4D View Synthesis Module (4D-ViSM)**: Renders videos with arbitrary camera trajectories from 4D point track representations
+
+## 🔥 News
+
+- [x] 2025-12-05: We have submitted our paper to arXiv. 
+- [ ] Code release
 
 ## 🎨 Results Showcase
 
@@ -119,8 +126,9 @@ If you find our work useful for your research, please consider citing us:
 @article{zhang2025more4d,
   title={Joint 3D Geometry Reconstruction and Motion Generation for 4D Synthesis from a Single Image},
   author={Zhang, Yanran and Wang, Ziyi and Zheng, Wenzhao and Zhu, Zheng and Zhou, Jie and Lu, Jiwen},
-  journal={arXiv preprint},
-  year={2025}
+  archivePrefix={arXiv},
+  primaryClass={cs.CV},
+  url={https://arxiv.org/abs/2512.05044}, 
 }
 ```
 
