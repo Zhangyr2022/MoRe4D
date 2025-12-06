@@ -1,0 +1,2 @@
+from .pipeline_wan_fun_control import WanFunControlPipeline
+from .pipeline_wan_fun_inpaint import WanFunInpaintPipeline

@@ -1,0 +1,28 @@
+python scripts/inference/infer.py \
+    --pretrained_model_path "models/Wan2.1-Fun-V1.1-14B-Control/PAI/Wan2.1-Fun-V1.1-14B-Control" \
+    --vae_ckpt_dir "output_dir/xxx" \
+    --vae_path "output_dir/xxx" \
+    --transformer_path "/xxx/transformer" \
+    --config_path "config/wan2.1/wan_civitai_mae_depth.yaml" \
+    --data_path "/xxx" \
+    --prompt_file_name "xxx.txt" \
+    --video_file_name "xxx.txt" \
+    --output_dir "output_dir/infer" \
+    --stage2_lora_path "/xxx.safetensors" \
+    --run_stage2_render \
+    --video_height 368 \
+    --video_width 512 \
+    --video_num_frames 49 \
+    --fps 8 \
+    --mixed_precision "bf16" \
+    --sampler_name "Flow" \
+    --shift 3.0 \
+    --num_skip_start_steps 5 \
+    --guidance_scale 6.0 \
+    --num_inference_steps 50 \
+    --seed 0 \
+    --lora_weight 0.55 \
+    --negative_prompt "" \
+    --normalize_track_z \
+    --run_stage1 \
+    --run_stage2_complete \

@@ -1,0 +1,26 @@
+accelerate launch --mixed_precision="bf16" scripts/4D_STraG_training/train_vae.py \
+  --vae_model_path="models/Wan2.1-Fun-V1.1-14B-Control/Wan2.1_VAE.pth" \
+  --data_root="/dataset/" \
+  --video_column="/xxx.txt" \
+  --output_dir="output_dir/wan2.1_vae" \
+  --normalize_track_z \
+  --num_frames=49 \
+  --train_batch_size=1 \
+  --gradient_accumulation_steps=1 \
+  --dataloader_num_workers=1 \
+  --num_train_epochs=10 \
+  --checkpointing_steps=200 \
+  --checkpoints_total_limit 3 \
+  --learning_rate=5e-6 \
+  --lr_scheduler="constant_with_warmup" \
+  --lr_warmup_steps=100 \
+  --seed=40 \
+  --mixed_precision="bf16" \
+  --adam_weight_decay=1e-2 \
+  --max_grad_norm=1.0 \
+  --validation_sceneflow /xxx.pkl \
+  --enable_xformers_memory_efficient_attention \
+  --validation_steps 1000 \
+  --resume_from_checkpoint latest \
+  --finetune_vae_decoder \
+#   --gradient_checkpointing
