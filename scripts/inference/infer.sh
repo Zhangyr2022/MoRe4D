@@ -3,7 +3,8 @@ python scripts/inference/infer.py \
     --vae_ckpt_dir "output_dir/xxx" \
     --vae_path "output_dir/xxx" \
     --transformer_path "/xxx/transformer" \
-    --config_path "config/wan2.1/wan_civitai_mae_depth.yaml" \
+    --config_path "config/wan2.1/wan_civital.yaml" \
+    --stage2_config_path "config/wan2.1/wan_civital_4D_STraG.yaml" \
     --data_path "/xxx" \
     --prompt_file_name "xxx.txt" \
     --video_file_name "xxx.txt" \
