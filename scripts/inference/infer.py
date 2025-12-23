@@ -34,7 +34,7 @@ for project_root in project_roots:
         sys.path.insert(0, project_root)
 
 from MoRe4D.models import (AutoencoderKLWan, WanT5EncoderModel, 
-                          WanTransformer3DModel, CLIPModel, WanTransformer3DModelDINO)
+                          WanTransformer3DModel, CLIPModel, WanTransformer4DModel)
 from MoRe4D.pipeline import WanFunControlPipeline, WanFunInpaintPipeline
 from MoRe4D.utils.lora_utils import create_network, merge_lora, unmerge_lora
 from MoRe4D.utils.utils import (filter_kwargs, get_image_latent, get_video_to_video_latent, 
@@ -546,7 +546,7 @@ def load_stage1_models(args, logger):
     config = OmegaConf.load(args.config_path)
     
     # Load transformer
-    transformer = WanTransformer3DModelDINO.from_pretrained(
+    transformer = WanTransformer4DModel.from_pretrained(
         os.path.join(args.pretrained_model_path, 
                     config['transformer_additional_kwargs'].get('transformer_subpath', 'transformer')),
         low_cpu_mem_usage=True,
